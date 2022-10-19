@@ -32,3 +32,34 @@
   display: none;
   color: #007bff;
 }
+
+/* for the gallery page */
+.gallery-container {
+  max-width: 970px;
+  margin: auto;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.gallery-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.flex-container {
+  max-width: 350px;
+}
+
+.gallery-image {
+  width: 100%;
+}
+
+.gallery-caption {
+  text-align: center;
+  padding: 6px;
+  margin: 6px;
+  border-bottom: 2px solid grey;
+}
